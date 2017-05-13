@@ -16,6 +16,7 @@ echo "source zshrc_ex >> ~/.zshrc"
 
 git config --global user.email "zhangbin_1012@icloud.com"
 git config --global user.name "张彬"
+git config --global push.default simple
 
 sudo curl -s https://install.zerotier.com/ | sudo bash
 sudo zerotier-cli 93afae5963c06f6a
